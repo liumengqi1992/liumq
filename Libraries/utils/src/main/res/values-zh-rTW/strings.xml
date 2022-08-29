@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">工具類集</string>
+    <!-- 剪切板 -->
+    <string name="clipboard_alert">“%s”已複製到剪切板。</string>
+
+    <string name="company_name">深蘭科技（上海）有限公司</string>
+    <string name="company_url">www.deepblueai.com</string>
+</resources>

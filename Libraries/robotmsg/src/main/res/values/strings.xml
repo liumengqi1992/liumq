@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">robotmsg</string>
+
+    <string name="laser">Laser</string>
+    <string name="drive_motor">Drive Motor</string>
+    <string name="suck_motor">Suck Motor</string>
+    <string name="tcp">TCP</string>
+    <string name="battery">Battery</string>
+    <string name="ultrasonic">Ultrasonic</string>
+    <string name="stop_button">Stop Button</string>
+    <string name="network">Network</string>
+
+    <string name="login_error_other">Other error in login.</string>
+    <string name="login_error">Error in password or username.</string>
+    <string name="logout_error">Error in logout.</string>
+
+    <string name="status_2019">OFFLINE</string>
+    <string name="status_0">IDLE</string>
+    <string name="status_1">TASK RUNNING</string>
+    <string name="status_2">M-CHARGING</string>
+    <string name="status_3">SLAM</string>
+    <string name="status_4">ERROR</string>
+    <string name="status_5">RELOCATION</string>
+    <string name="status_6">A-CHARGING</string>
+    <string name="status_7">TASK CREATING</string>
+    <string name="status_8">PATH RECORDING</string>
+    <string name="status_other">OTHER</string>
+    <string name="toast_status_0">Robot is in status: IDLE</string>
+    <string name="toast_status_1">Robot is in status: TASK RUNNING</string>
+    <string name="toast_status_2">Robot is in status: MANUAL CHARGING</string>
+    <string name="toast_status_3">Robot is in status: SLAM</string>
+    <string name="toast_status_4">Robot is in status: ERROR</string>
+    <string name="toast_status_5">Robot is in status: RELOCATION</string>
+    <string name="toast_status_6">Robot is in status: AUTO CHARGING</string>
+    <string name="toast_status_7">Robot is in status: TASK CREATING</string>
+    <string name="toast_status_8">Robot is in status: PATH RECORDING</string>
+    <string name="toast_status_other">Robot is in status: OTHER</string>
+</resources>

@@ -1,0 +1,14 @@
+﻿adapter：封装了BaseAdapter，使得代码更加精简
+bezier：绘制贝塞尔曲线（含线段）、多边形、矩形、椭圆、圆、可选转矩形
+components：简单的自定义控件（复杂的控件另建单独的模块，如mapselector）
+crypto：加解密
+dialog：基于DialogFragment的对话框封装
+klog：日志
+mapselector：地图选择控件
+netty：基于Netty的TCP连接
+prgress：可用于Progress的动画icon
+robotmsg：机器人网络通信协议报文
+tcp：仿Netty接口的TCP连接
+utils：工具类集
+websocket：WebSocket连接
+wheel：滑轮样式的ListView

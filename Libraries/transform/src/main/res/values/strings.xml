@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">transform</string>
+
+    <string name="ruler_start">S</string>
+    <string name="ruler_distance_m">%1$1.1fm | Χ </string>
+    <string name="ruler_distance_km">%1$1.2fkm | Χ </string>
+</resources>

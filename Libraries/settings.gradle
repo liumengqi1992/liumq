@@ -1,0 +1,2 @@
+include ':app', ':netty', ':crypto', ':tcp', ':utils', ':klog', ':websocket', ':robotmsg', ':bezier', ':components', ':adapter', ':dialog', ':progress', ':swipemenu', ':dimenadaptation', ':imageview', ':seekbar', ':wheelpicker', ':xml', ':planbmsg', ':dragswipelv', ':arouter', ":listview", ':mapbezier', ':transform', ':marquee', ':libchefcar', ':appotalib', ':liblog'
+include ':cloudmsg'

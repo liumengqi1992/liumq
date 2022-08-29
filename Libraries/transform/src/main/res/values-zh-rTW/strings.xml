@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">transform</string>
+
+    <string name="ruler_start">起</string>
+    <string name="ruler_distance_m">%1$1.1f米 | Χ</string>
+    <string name="ruler_distance_km">%1$1.2千米 | Χ</string>
+</resources>

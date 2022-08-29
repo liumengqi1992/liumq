@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!--以下为临时数据，将从服务端获取-->
+    <string-array name="sign_key">
+        <item>display_robot</item>
+        <item>display_wall</item>
+        <item>display_point</item>
+        <item>display_line</item>
+        <item>display_area</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='gb2312'?>
+<ftpSetting>
+    <!--机器人服务器信息-->
+    <robotServerSetting>
+        <!--服务器IP-->
+        <serverIP>192.168.16.92</serverIP>
+        <!--服务器端口号-->
+        <serverPort>20037</serverPort>
+        <!--心跳时间/s-->
+        <heartTime>6</heartTime>
+    </robotServerSetting>
+
+</ftpSetting>

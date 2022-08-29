@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="laser">Laser</string>
+    <string name="drive_motor">Drive Motor</string>
+    <string name="suck_motor">Suck Motor</string>
+    <string name="tcp">TCP</string>
+    <string name="battery">Battery</string>
+    <string name="ultrasonic">Ultrasonic</string>
+    <string name="stop_button">Stop Button</string>
+    <string name="network">Network</string>
+
+    <string name="login_error_other">Other error in login.</string>
+    <string name="login_error">Error in password or username.</string>
+    <string name="logout_error">Error in logout.</string>
+
+    <string name="status_2019">OFFLINE</string>
+    <string name="status_3">IDLE</string>
+    <string name="status_4">TASK RUNNING</string>
+    <string name="status_9">M-CHARGING</string>
+    <string name="status_5">SLAM</string>
+    <string name="status_10">ERROR</string>
+    <string name="status_7">RELOCATION</string>
+    <string name="status_8">A-CHARGING</string>
+    <string name="status_6">PATH RECORDING</string>
+    <string name="status_11">EMERGENCY</string>
+    <string name="status_20">NAVIGATING</string>
+    <string name="status_other">OTHER</string>
+    <string name="toast_status_3">Robot is in status: IDLE</string>
+    <string name="toast_status_4">Robot is in status: TASK RUNNING</string>
+    <string name="toast_status_9">Robot is in status: MANUAL CHARGING</string>
+    <string name="toast_status_5">Robot is in status: SLAM</string>
+    <string name="toast_status_10">Robot is in status: ERROR</string>
+    <string name="toast_status_7">Robot is in status: RELOCATION</string>
+    <string name="toast_status_8">Robot is in status: AUTO CHARGING</string>
+    <string name="toast_status_6">Robot is in status: PATH RECORDING</string>
+    <string name="toast_status_11">Robot is in status: EMERGENCY</string>
+    <string name="toast_status_20">Robot is in status: NAVIGATING</string>
+    <string name="toast_status_other">Robot is in status: OTHER</string>
+
+    <string name="point_type_c">Charge</string>
+    <string name="point_type_p">Navigation</string>
+    <string name="point_type_d">Relocation</string>
+    <string name="point_type_l">Lift</string>
+    <string name="point_type_g">Front Desk</string>
+    <string name="point_type_r">Room</string>
+
+    <string name="path_work_type_1">Work Path</string>
+    <string name="path_work_type_2">Forbidden Line</string>
+    <string name="area_work_type_1">Work Area</string>
+    <string name="area_work_type_2">Forbidden</string>
+    <string name="area_work_type_3">Carpet</string>
+    <string name="area_work_type_4">Display</string>
+    <string name="area_work_type_5">Deceleration</string>
+    <string name="area_work_type_6">Slope</string>
+    
+    <string name="port_spray_water">Spray Water</string>
+    <string name="port_suction_motor">Suction Motor</string>
+    <string name="port_brush_set">Brush Set</string>
+    <string name="port_drainage">Drainage</string>
+</resources>

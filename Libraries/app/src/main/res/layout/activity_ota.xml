@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OtaActivity">
+    <Button
+    android:id="@+id/setMac"
+    android:text="设置dfu mac地址"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints"
+    android:onClick="CBClick"/>
+
+    <Button
+        android:id="@+id/setOta"
+        android:text="可以升级"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:onClick="CBOtaClick"/>
+
+    <Button
+        android:id="@+id/setOtaStop"
+        android:text="禁止升级"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:onClick="CBOtaStopClick"/>
+</LinearLayout>

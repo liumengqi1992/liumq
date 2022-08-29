@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.deepblue.library.transform.TransformativeImageView
+            android:id="@+id/tansformativeImageView"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:open_rotate_revert="true"
+            app:open_scale_revert="true"
+            app:open_translate_revert="true"
+            app:revert_duration="300"
+            app:max_scale="4"
+            app:min_scale="1"
+            app:open_animator="true"/>
+
+    <com.deepblue.library.transform.MapElementView
+        android:id="@+id/mapElementView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</android.support.constraint.ConstraintLayout>

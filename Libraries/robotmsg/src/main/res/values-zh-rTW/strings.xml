@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">robotmsg</string>
+
+    <string name="laser">雷射雷達</string>
+    <string name="drive_motor">驅動電機</string>
+    <string name="tcp">TCP通信連接</string>
+    <string name="battery">電池</string>
+    <string name="network">網絡狀態</string>
+    <string name="suck_motor">吸風電機</string>
+    <string name="ultrasonic">超聲波</string>
+    <string name="stop_button">急停按鈕</string>
+
+    <string name="login_error_other">其它錯誤</string>
+    <string name="login_error">密碼或者用戶名錯誤</string>
+    <string name="logout_error">登出錯誤</string>
+
+    <string name="status_2019">離線</string>
+    <string name="status_0">待命</string>
+    <string name="status_1">運行任務</string>
+    <string name="status_2">手動充電</string>
+    <string name="status_3">創建地圖</string>
+    <string name="status_4">故障</string>
+    <string name="status_5">重定位</string>
+    <string name="status_6">自動充電</string>
+    <string name="status_7">創建任務</string>
+    <string name="status_8">錄製路徑</string>
+    <string name="status_other">其他狀態</string>
+    <string name="toast_status_0">正在待命</string>
+    <string name="toast_status_1">正在運行任務</string>
+    <string name="toast_status_2">正在充電</string>
+    <string name="toast_status_3">正在創建地圖</string>
+    <string name="toast_status_4">機器人故障</string>
+    <string name="toast_status_5">正在重定位</string>
+    <string name="toast_status_6">正在充電</string>
+    <string name="toast_status_7">正在創建任務</string>
+    <string name="toast_status_8">正在錄製路徑</string>
+    <string name="toast_status_other">正在其他狀態</string>
+</resources>

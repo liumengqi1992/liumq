@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="laser">激光雷达</string>
+    <string name="drive_motor">驱动电机</string>
+    <string name="tcp">TCP通信连接</string>
+    <string name="battery">电池</string>
+    <string name="network">网络状态</string>
+    <string name="suck_motor">吸风电机</string>
+    <string name="ultrasonic">超声波</string>
+    <string name="stop_button">急停按钮</string>
+
+    <string name="login_error_other">其它错误</string>
+    <string name="login_error">密码或者用户名错误</string>
+    <string name="logout_error">登出错误</string>
+
+    <string name="status_2019">离线</string>
+    <string name="status_3">待命</string>
+    <string name="status_4">运行任务</string>
+    <string name="status_9">手动充电</string>
+    <string name="status_5">创建地图</string>
+    <string name="status_10">故障</string>
+    <string name="status_7">重定位</string>
+    <string name="status_8">自动充电</string>
+    <string name="status_6">录制路径</string>
+    <string name="status_11">急停</string>
+    <string name="status_20">自由导航</string>
+    <string name="status_other">其他状态</string>
+    <string name="toast_status_3">正在待命</string>
+    <string name="toast_status_4">正在运行任务</string>
+    <string name="toast_status_9">正在充电</string>
+    <string name="toast_status_5">正在创建地图</string>
+    <string name="toast_status_10">机器人故障</string>
+    <string name="toast_status_7">正在重定位</string>
+    <string name="toast_status_8">正在充电</string>
+    <string name="toast_status_6">正在录制路径</string>
+    <string name="toast_status_11">机器人急停</string>
+    <string name="toast_status_20">正在自由导航</string>
+    <string name="toast_status_other">正在其他状态</string>
+
+    <string name="point_type_c">充电点</string>
+    <string name="point_type_p">导航点</string>
+    <string name="point_type_d">重定位点</string>
+    <string name="point_type_l">电梯点</string>
+    <string name="point_type_g">前台点</string>
+    <string name="point_type_r">房间点</string>
+
+    <string name="path_work_type_1">工作路径</string>
+    <string name="path_work_type_2">禁行线</string>
+    <string name="area_work_type_1">工作区域</string>
+    <string name="area_work_type_2">禁行区域</string>
+    <string name="area_work_type_3">地毯区域</string>
+    <string name="area_work_type_4">展示区域</string>
+    <string name="area_work_type_5">减速带</string>
+    <string name="area_work_type_6">斜坡</string>
+
+    <string name="port_spray_water">喷水开关</string>
+    <string name="port_suction_motor">吸风电机</string>
+    <string name="port_brush_set">刷盘</string>
+    <string name="port_drainage">排水</string>
+</resources>

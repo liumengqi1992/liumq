@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">utils</string>
+    <!-- 剪切板 -->
+    <string name="clipboard_alert">"%s" has been copied to the Clipboard.</string>
+
+    <string name="company_name">DeepBlue Technology (Shanghai) Co., Ltd.</string>
+    <string name="company_url">www.deepblueai.com</string>
+</resources>

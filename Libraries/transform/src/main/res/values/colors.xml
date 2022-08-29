@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="waypoint_blue">#006FF1</color>
+    <color name="waypoint_red">#E01055</color>
+    <color name="waypoint_focus">#F56123</color>
+
+    <color name="msgframe">#4A90E2</color>
+    <color name="focused_line">#50E3C2</color>
+    <color name="draw_route">#1B2A7E</color>
+    <color name="map_line">#5E3817</color>
+    <color name="focused_area">#7D0151F6</color>
+    <color name="forbidden_line">#D0021B</color>
+    <color name="forbidden_frame">#D0021B</color>
+    <color name="default_area">#600BBCFB</color>
+    <!--工作区域-->
+    <color name="range1work1">#600BBCFB</color>
+    <!--禁行区域-->
+    <color name="range1work2">#35D1031C</color>
+    <!--地毯区域-->
+    <color name="range1work3">#75716D</color>
+    <!--展示区域-->
+    <color name="range1work4">#7FF8C51C</color>
+    <!--减速带-->
+    <color name="range1work5">#60F59323</color>
+    <!--斜坡-->
+    <color name="range1work6">#60F55923</color>
+    <!--工作路径-->
+    <color name="range2work1">#5E3817</color>
+    <!--禁行线-->
+    <color name="range2work2">#D0021B</color>
+</resources>

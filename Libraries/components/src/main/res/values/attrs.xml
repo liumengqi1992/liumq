@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="Battery">
+		<attr name="android:orientation" />
+		<attr name="lowColor" format="reference|color" />
+		<attr name="middleColor" format="reference|color" />
+		<attr name="highColor" format="reference|color" />
+		<attr name="lowPower" format="integer" />
+		<attr name="highPower" format="integer" />
+		<attr name="frameColor" format="reference|color" />
+		<attr name="power" format="integer"/>
+	</declare-styleable>
+</resources>

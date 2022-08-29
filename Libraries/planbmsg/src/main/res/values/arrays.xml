@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="point_type">
+        <item>C</item>
+        <item>P</item>
+        <item>D</item>
+        <item>L</item>
+        <item>G</item>
+        <item>R</item>
+    </string-array>
+    <string-array name="port_name">
+        <item>spray_water</item>
+        <item>suction_motor</item>
+        <item>brush_set</item>
+        <item>drainage</item>
+    </string-array>
+</resources>
