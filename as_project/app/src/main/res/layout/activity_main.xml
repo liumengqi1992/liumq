@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="384.5dp"
+                android:layout_height="1090dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg" />
+
+            <TextView
+                android:id="@+id/tip_tv"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="-1"
+                android:singleLine="true"
+                android:text="若您有近7天中高风险地区旅居史（含境外）请及时信息更新和风险报备"
+                android:textColor="#C67D4A"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="43dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
