@@ -6,12 +6,16 @@ import android.os.Handler;
 import android.util.Log;
 import android.widget.TextView;
 
+import androidx.viewpager.widget.ViewPager;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
 
 public class MainActivity extends Activity {
+
+    private ViewPager viewPager;
 
     private TextView timeTv;
 
@@ -35,6 +39,11 @@ public class MainActivity extends Activity {
         px2Dp();
         timeTv = findViewById(R.id.time_tv);
         handler.post(runnable);
+        viewPager = (ViewPager) findViewById(R.id.viewpager);
+        CustomPageAdapter customPageAdapter = new CustomPageAdapter(this);
+        viewPager.setAdapter(customPageAdapter);
+        customPageAdapter.notifyDataSetChanged();
+        viewPager.setCurrentItem(1);
     }
 
     private void px2Dp() {

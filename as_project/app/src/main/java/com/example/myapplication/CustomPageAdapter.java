@@ -1,40 +1,53 @@
 package com.example.myapplication;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.viewpager.widget.PagerAdapter;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
 
 public class CustomPageAdapter extends PagerAdapter {
-    private List<String> dataList = new ArrayList<>();
+    private static final String TAG = "CustomPageAdapter";
 
     private Context context;
 
     public CustomPageAdapter(Context context) {
         this.context = context;
-        dataList.add("page 1");
-        dataList.add("page 2");
-        dataList.add("page 3");
-        dataList.add("page 4");
-        dataList.add("page 5");
     }
 
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
-        View view = createItem(container);
+        Log.d(TAG, "instantiateItem position = " + position);
+        View view = LayoutInflater.from(context).inflate(R.layout.item_viewpage, container, false);
+        ImageView imageView = view.findViewById(R.id.item_img_iv);
+        TextView timeTv = view.findViewById(R.id.item_time_tv);
+        TextView placeTv = view.findViewById(R.id.item_place_tv);
+        if (position % 2 == 0) {
+            imageView.setBackground(ContextCompat.getDrawable(context, R.drawable.report));
+            timeTv.setVisibility(View.VISIBLE);
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.ROOT);
+            Calendar cal = Calendar.getInstance();
+            //cal.add(Calendar.DATE, -1);
+            timeTv.setText(simpleDateFormat.format(cal.getTime()) + " 01:27:32");
+            placeTv.setVisibility(View.VISIBLE);
+        } else {
+            imageView.setBackground(ContextCompat.getDrawable(context, R.drawable.report_48hour));
+            timeTv.setVisibility(View.GONE);
+            placeTv.setVisibility(View.GONE);
+        }
         container.addView(view);
         return view;
-    }
-
-    private View createItem(ViewGroup container) {
-        return LayoutInflater.from(context).inflate(R.layout.item_viewpage, container, false);
     }
 
     @Override
@@ -43,8 +56,13 @@ public class CustomPageAdapter extends PagerAdapter {
     }
 
     @Override
+    public int getItemPosition(@NonNull Object object) {
+        return 0;
+    }
+
+    @Override
     public int getCount() {
-        return dataList.size();
+        return 2;
     }
 
     @Override
